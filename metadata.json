@@ -1,0 +1,11 @@
+{
+  "name": "Smart Crop Care",
+  "description": "Smart Crop Care and Direct Market Access for Farmers - disease detection, treatment advice, market prices, buyers, cold storage, and logistics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

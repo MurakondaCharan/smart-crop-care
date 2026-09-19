@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="112" fill="url(#gradBg)" />
+  
+  <!-- Subtle circular sun/growth aura -->
+  <circle cx="256" cy="180" r="100" fill="url(#sunGrad)" opacity="0.3" />
+  
+  <!-- Protection Shield Motif Outline -->
+  <path d="M256 90 L370 140 C370 260 256 370 256 370 C256 370 142 260 142 140 Z" fill="none" stroke="#bbf7d0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.4" />
+  
+  <!-- Central Sprout / Leaf of Crop Care -->
+  <path d="M256 360 C256 220 370 160 370 160 C370 260 270 330 256 360 Z" fill="url(#leafGrad)" />
+  <path d="M256 360 C256 250 160 200 160 200 C160 280 230 340 256 360 Z" fill="#4ade80" />
+  
+  <!-- Central Leaf Stem & Spine -->
+  <path d="M256 380 L256 210" stroke="#ffffff" stroke-width="14" stroke-linecap="round" />
+  <path d="M256 280 C280 260 310 250 330 250" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+  <path d="M256 310 C230 295 200 290 180 290" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+  
+  <!-- Direct Market Upward Trend Arrow -->
+  <circle cx="390" cy="130" r="44" fill="#f59e0b" />
+  <path d="M380 142 L398 124 M398 124 H384 M398 124 V138" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#f0fdf4"/>
+  <rect width="100%" height="100%" fill="none" stroke="#bbf7d0" stroke-width="4"/>
+  <g transform="translate(140, 60)">
+    <!-- Leaf outline -->
+    <path d="M 60 10 C 130 30, 150 110, 80 150 C 40 170, 0 140, 10 90 C 20 50, 40 20, 60 10 Z" fill="url(#leafGrad)" opacity="0.9"/>
+    <!-- Leaf veins -->
+    <path d="M 60 15 Q 55 85, 45 145" stroke="#a7f3d0" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 57 50 Q 75 40, 95 45" stroke="#a7f3d0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 54 80 Q 75 75, 100 85" stroke="#a7f3d0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 52 110 Q 70 105, 85 120" stroke="#a7f3d0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 55 65 Q 35 60, 20 70" stroke="#a7f3d0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 50 95 Q 35 95, 25 110" stroke="#a7f3d0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Concentric lesion hint -->
+    <circle cx="90" cy="70" r="14" fill="#78350f" opacity="0.6"/>
+    <circle cx="90" cy="70" r="9" fill="#fef08a" opacity="0.7"/>
+    <circle cx="90" cy="70" r="5" fill="#451a03" opacity="0.8"/>
+  </g>
+  <text x="200" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#065f46" text-anchor="middle">
+    Smart Crop Care Sample
+  </text>
+  <text x="200" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#047857" text-anchor="middle">
+    Leaf Pathology Sample Photo
+  </text>
+</svg>
